@@ -15,10 +15,16 @@ function Navbar() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/features">About Me</Link>
+                <Link to="/about">About Me</Link>
               </li>
               <li>
-                <Link to="/docs">Contact</Link>
+                <Link to="/skills">Skills</Link>
+              </li>
+              <li>
+                <Link to="/project">Project</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
