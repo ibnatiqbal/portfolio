@@ -192,13 +192,18 @@ pre {
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
-
+.about {
+  margin-bottom: 4%;
+}
 .about h2 {
-  color: #d9534f;
+  color: #050229;
   text-decoration: underline;
+  font-weight: 600;
 }
 /* Languages */
-
+.languages {
+  padding-top: 2%;
+}
 .languages .flex {
   flex-wrap: wrap;
 }
