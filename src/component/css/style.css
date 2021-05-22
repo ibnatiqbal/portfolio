@@ -272,6 +272,18 @@ pre {
   font-weight: bold;
 }
 
+#backgr {
+  background: #1f1f1f url(https://wallpapercave.com/wp/wp6606918.jpg) no-repeat
+    center center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
 /* Footer */
 .footer .social a {
   margin: 0 10px;
