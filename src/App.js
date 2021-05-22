@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./component/Navbar";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </>
+    </Router>
   );
 }
 
