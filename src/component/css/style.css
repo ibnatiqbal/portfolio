@@ -271,22 +271,18 @@ pre {
 .docs-main a:hover {
   font-weight: bold;
 }
+.project {
+  padding-top: 2%;
 
-#backgr {
-  background: #1f1f1f url(https://wallpapercave.com/wp/wp6606918.jpg) no-repeat
-    center center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  background-attachment: fixed;
-  position: relative;
-  min-height: 200px;
-  width: 100%;
-  overflow: hidden;
+  padding-bottom: 2%;
 }
-
 /* Footer */
 .footer .social a {
   margin: 0 10px;
+}
+.prjct {
+  display: flex;
+  justify-content: space-around;
 }
 .boom {
   display: flex;
