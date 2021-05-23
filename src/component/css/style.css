@@ -201,9 +201,7 @@ pre {
   font-weight: 600;
 }
 /* Languages */
-.languages {
-  padding-top: 2%;
-}
+
 .languages .flex {
   flex-wrap: wrap;
 }
@@ -267,7 +265,6 @@ pre {
   margin-bottom: 5px;
   border-bottom: 1px #ccc solid;
 }
-
 .docs-main a:hover {
   font-weight: bold;
 }
@@ -287,25 +284,21 @@ pre {
   margin-bottom: 5%;
 }
 .nora__chora {
-  /* width: 100px;
-  height: 100px;
-  background: red; */
   position: relative;
   animation-name: example;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
-  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
 @keyframes example {
   from {
-    top: 0px;
+    top: 10px;
   }
   to {
-    top: 20px;
+    top: 25px;
   }
 }
 .boom {
