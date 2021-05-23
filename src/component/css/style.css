@@ -297,7 +297,7 @@ pre {
   animation-direction: alternate;
 }
 .contact {
-  background-color: #191919;
+  background-color: #566573;
 }
 .contact h2 {
   text-decoration: underline;
@@ -317,6 +317,32 @@ pre {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.love {
+  animation: spin1 2s infinite;
+}
+
+@keyframes spin1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.git {
+  animation: spin2 2s infinite;
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Animations */
 @keyframes slideInFromLeft {
   0% {
