@@ -296,7 +296,14 @@ pre {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-
+.contact {
+  background-color: #191919;
+}
+.contact h2 {
+  text-decoration: underline;
+  font-weight: 600;
+  color: white;
+}
 @keyframes example {
   from {
     top: 10px;
