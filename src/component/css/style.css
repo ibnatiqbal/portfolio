@@ -283,6 +283,30 @@ pre {
 .prjct {
   display: flex;
   justify-content: space-around;
+  margin-left: 50px;
+  margin-bottom: 5%;
+}
+.nora__chora {
+  /* width: 100px;
+  height: 100px;
+  background: red; */
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 20px;
+  }
 }
 .boom {
   display: flex;
