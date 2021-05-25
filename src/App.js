@@ -12,9 +12,6 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/contact">
-            <Contact />
-          </Route>
           <Route path="/">
             <Home />
           </Route>
