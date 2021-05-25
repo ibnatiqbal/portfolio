@@ -8,12 +8,20 @@ import Contact from "./component/Contact";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Home />
-      <Contact />
-      <Footer />
-    </Router>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
