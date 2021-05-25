@@ -4,6 +4,9 @@ function About() {
   return (
     <div className="about">
       <h2>About:</h2>
+      <p style={{ color: "tomato", textAlign: "center" }}>
+        ____This is where about me will be updated____
+      </p>
       <div className="con">
         <div className="content">
           Lorem The href attribute requires a valid value to be accessible.
